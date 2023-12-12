@@ -1,0 +1,16 @@
+/* Navbar Link Hover Effect */
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: blue; /* Blue underline effect */
+}
+
+/* Additional custom styles */
